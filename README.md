@@ -5,12 +5,11 @@
 
 ## 📌 Table of Contents
 - [Overview](#Overview)
-- [Project Workflow](#Project-Workflow)
 - [Business Problem](#business-problem)
+- [Project Workflow](#Project-Workflow)
 - [Dataset](#dataset)
 - [Tools & Technologies](#tools--technologies)
 - [Project Structure](#Project-Structure)
-- [Data Pipeline Overview](#Data-Pipeline-Overview)
 - [Key Outcomes](#Key-Outcomes)
 - [Business Insights](#Business-Insights)
 - [Dashboard Preview](#Dashboard-Preview)
@@ -18,29 +17,34 @@
 - [Author & Contact](#author--contact)
 ---
 ## Overview
-<p> This project evaluates vendor impact (overall performance) and retail inventory dynamics to drive strategic insights for purchasing, pricing, and inventory optimization. A complete data pipeline was built using SQL for ETL, Python for analysis and hypothesis testing, and Power BI for visualization.
-    
-Through comprehensive data analysis using Python and SQL on a retail dataset, the project evaluates key metrics such as gross profit, profit margins, stock turnover, freight costs, and sales-to-purchase ratios.  
-By identifying top-performing vendors and brands, as well as underperforming products with high margins, the analysis supports strategic decisions related to procurement, pricing, and promotions.
-
-The insights derived also highlight how bulk purchasing can significantly reduce unit costs, contributing to improved profit margins. Additionally, the project reveals the extent of capital locked in unsold inventory and identifies vendors with low stock turnover, enabling businesses to take corrective actions.
+<p>This analysis explores the banking customer dataset to uncover key patterns in account holdings, loan portfolios, income profiles, and transactional behavior. By integrating both financial and demographic variables, we examine customer engagement, lending trends, and risk exposure across different segments. The insights aim to support data-driven decision-making for improving product strategies, managing portfolio risk, and enhancing overall banking performance
 </p>
+
+---
+## Business Problem
+
+## 📌 Business Problem
+
+This project addresses a **Bank Performance & Customer Segmentation** challenge.  
+The objective is to monitor, analyze, and visualize key banking metrics to drive informed decision-making.
+
+### Key Questions
+- **Customer Base Analysis** – How many clients does the bank have? Which customer segments (e.g., income band, nationality) contribute the most value?  
+- **Engagement & Retention** – How engaged are customers based on total engagement accounts and credit card accounts?  
+- **Financial Performance Tracking** – How well is the bank performing in terms of loans, deposits, and fee generation?  
+- **Goal Achievement** – Is the bank meeting its financial targets?  
+- **Portfolio Risk & Opportunity** – Are loans concentrated in specific income bands or nationalities, indicating potential risks or opportunities?
+- **Age Distribution** - How can the bank optimize its product offerings, marketing strategies, and customer retention plans across different age groups—particularly             addressing the underrepresentation of customers under 25 and over 60—while reducing overreliance on the 30–45 age segment?
+ 
+<em>The goal is to perform end-to-end data analysis to uncover in-depth insights and, subsequently, create a **real-time banking performance dashboard** that identifies trends, highlights risks, and uncovers opportunities for growth.</em>
 
 ---
 
 ## Project Workflow
 
-<img width="1240" height="685" alt="Image" src="https://github.com/user-attachments/assets/98b9225b-ef6b-43f1-b708-2ee15e2079a8" />
+<img width="479" height="811" alt="Image" src="https://github.com/user-attachments/assets/cb89b959-73ae-44c9-8491-603518556fb5" />
 
-## Business Problem
-
-Companies often face losses due to poor inventory practices, inefficient pricing strategies, and vendor over-dependence. This analysis aims to:
-
-- Identify underperforming brands needing promotional or pricing adjustments.
-- Determine top vendors contributing to sales and gross profit.
-- Analyze the cost-benefit of bulk purchasing.
-- Assess inventory turnover to improve efficiency and reduce holding costs.
-- Investigate profitability variance between high- and low-performing vendors
+---
 
 ## Tools & Technologies
 
@@ -77,94 +81,18 @@ Banking Customer Behavior and Financial Performance Analysis/
 
 ---
 
-
-## Data Pipeline Overview
-
-```mermaid
-graph TD;
-    A[Define Business Problem] --> B[Explore DB with SQL];
-    B --> C[Clean & Merge Tables];
-    C --> D[Create Aggregated Table];
-    D --> E[Save to SQLite DB];
-    D --> F[Load in Jupyter];
-    F --> G[Perform EDA];
-    G --> H[Create Power BI Dashboard];
-    H --> I[Report Insights];
-```
-
----
-
 ## Key Outcomes
 
-- 📌 **Cleaned & Valid Dataset**  
-  - Removed inconsistencies like negative profit margins, gross profit and zero sales.
-  - Final dataset contains **8,565 valid records** ready for analysis.
 
-- 📌 **Top Vendors & Brands Identified**  
-  - **Top Vendors by Sales**:
-    - DIAGEO NORTH AMERICA INC – `$67.99M`
-    - MARTIGNETTI COMPANIES – `$39.33M`
-    - PERNOD RICARD USA – `$32.06M`
-  - **Top Brands by Sales**:
-    - Jack Daniels No 7 Black – `$7.96M`
-    - Tito’s Handmade Vodka – `$7.40M`
-    - Grey Goose Vodka – `$7.21M`
- <img width="1500" height="483" alt="Image" src="https://github.com/user-attachments/assets/0ac76af0-b694-4ec4-a908-2ce6f5a3daf7" />
-
-- 📌 **Underperforming High-Margin Brands**  
-  - Brands like *Santa Rita Organic* and *Debauchery Pnt Nr* had **high margins but low sales**.
-  - Recommend strategic promotions or pricing updates.
-
-- 📌 **Vendor Purchase Contribution**  
-  - **Top 10 vendors contribute 65.69%** of total purchases.
-  - Demonstrated using Pareto and Donut charts.
-<img width="1042" height="647" alt="Image" src="https://github.com/user-attachments/assets/fbbfbcf7-d8d6-42b5-a0a0-547e60dd4406" />
-
-- 📌 **Bulk Purchasing Reduces Unit Price**  
-  - Small Orders: `$39.06` per unit  
-  - Large Orders: `$10.78` per unit  
-  - Bulk purchases reduce cost by **~72%**, boosting profitability.
-
-- 📌 **Inventory Issues Detected**  
-  - Vendors like *ALISA CARR BEVERAGES* have **very low stock turnover (<1)**.
-  - Total capital locked in unsold inventory: **`$2.71M`**
-
-- 📌 **Profit Margin Confidence Intervals**  
-  - **Top-performing vendors**: Mean Margin `31.17%`, CI: `(30.74%, 31.61%)`  
-  - **Low-performing vendors**: Mean Margin `41.55%`, CI: `(40.48%, 42.62%)`  
-  - Indicates low performers rely on **premium pricing**, not volume.
-<img width="1154" height="629" alt="Image" src="https://github.com/user-attachments/assets/8aaf5e91-7002-4738-a8bc-99e88ab24eeb" />
-
----
-
-## Business Insights
-
-- **Sales & Purchase Alignment**  
-  - Nearly perfect correlation (0.999) between purchase and sales quantity → **Efficient inventory turnover**
-
-- ⚠️ **Freight Cost Variability**  
-  - Wide cost range suggests **logistical inefficiencies** or bulk shipment variability.
-
-- ⚠️ **Stock Turnover ≠ Profitability**  
-  - High turnover doesn’t always translate to higher profit → Possible discounting or low-margin sales.
-
-- ⚠️ **Skewed Distributions Detected**  
-  - `GrossProfit`, `ProfitMargin`, `StockTurnover`, and `SalesToPurchaseRatio` had extreme outliers.  
-  - Addressed via filtering, capping, and visual diagnostics.
-
-- **Consistent Data Handling**  
-  - Applied statistical thresholds and visualizations to ensure clean, actionable data for analysis and reporting.
- 
 ---
 ## Dashboard Preview
 
 `Below is a preview of the Power BI dashboard showing key vendor KPIs:`
-> 📁 File: [`Inventory_Management.pbix`](https://app.powerbi.com/view?r=eyJrIjoiNTA4MzAyYjctNTY4NC00YzNlLWEzMGUtMDc4ZTdkNDhkOWVjIiwidCI6IjQyYjUxMzUzLTZhMzctNDA5Zi1hMmZlLTc3OGE5YmUzMTllNCJ9)
+<!-- 📁 File: [`Inventory_Management.pbix`](https://app.powerbi.com/view?r=eyJrIjoiNTA4MzAyYjctNTY4NC00YzNlLWEzMGUtMDc4ZTdkNDhkOWVjIiwidCI6IjQyYjUxMzUzLTZhMzctNDA5Zi1hMmZlLTc3OGE5YmUzMTllNCJ9)
 <div>
-    <img width="1071" height="604" alt="Image" src="https://github.com/user-attachments/assets/b2b05186-b7ff-4070-803b-2ae922487cec" />
-    <img width="1070" height="603" alt="Image" src="https://github.com/user-attachments/assets/e57c3d82-f87f-44fd-829f-ca53793f5edd" />
+  
 </div>
-
+-->
 ---
 ## How to Run This Project
  
