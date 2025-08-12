@@ -1,5 +1,17 @@
 # Ignore Jupyter Notebook checkpoints
 *.ipynb_checkpoints/
+
 # Ignore Python bytecode files
 __pycache__/
-Banking-case.sql/
+
+# Ignore the Banking-case.sql file
+Banking-case.sql
+
+# Ignore virtual environment directories
+venv/   
+
+# Ignore log files
+*.log   
+
+# Ignore environment variable files     
+.env
