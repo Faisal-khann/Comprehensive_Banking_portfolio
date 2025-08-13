@@ -42,7 +42,7 @@ The objective is to monitor, analyze, and visualize key banking metrics to drive
 
 ## Project Workflow
 
-<img width="479" height="811" alt="Image" src="https://github.com/user-attachments/assets/cb89b959-73ae-44c9-8491-603518556fb5" />
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/25fab21f-01fa-4ceb-9f75-5f968257a9de" />
 
 ---
 
@@ -59,7 +59,9 @@ The objective is to monitor, analyze, and visualize key banking metrics to drive
 
 ---
 ## Dataset
-- Multiple CSV files located in /dataset/ folder
+
+    - Multiple CSV files located in /dataset/ folder
+    - 'Banking.csv' located in the /notebook/ folder
 ---
 
 ## Project Structure
@@ -77,6 +79,11 @@ Banking Customer Behavior and Financial Performance Analysis/
 │   
 ├── dashboard/                  # Power BI dashboard file
 │   └── Banking_Analysis.pbix
+├── Report-Ppt/                  # Power BI dashboard ppt & report 
+│   └── Banking dashboard ppt
+    └── Banking dashboard report 
+
+
 ```
 
 ---
@@ -86,23 +93,30 @@ Banking Customer Behavior and Financial Performance Analysis/
 
 ---
 ## Dashboard Preview
-
-`Below is a preview of the Power BI dashboard showing key vendor KPIs:`
-<!-- 📁 File: [`Inventory_Management.pbix`](https://app.powerbi.com/view?r=eyJrIjoiNTA4MzAyYjctNTY4NC00YzNlLWEzMGUtMDc4ZTdkNDhkOWVjIiwidCI6IjQyYjUxMzUzLTZhMzctNDA5Zi1hMmZlLTc3OGE5YmUzMTllNCJ9)
+📁 Live: [`Banking_Analysis.pbix`](https://app.powerbi.com/view?r=eyJrIjoiMTk3MjE2MjItMTdhZi00NjkwLTg1MzAtZTUxZDNiYjJkMDlkIiwidCI6IjQyYjUxMzUzLTZhMzctNDA5Zi1hMmZlLTc3OGE5YmUzMTllNCJ9)
 <div>
+ 
+  `Below is a preview of the Power BI dashboard showing key vendor KPIs:`<br>
   
+  <img width="1161" height="645" alt="Image" src="https://github.com/user-attachments/assets/a8d1ebd5-5d4d-4be4-8c27-6e49813767ed" />
+
+<img width="1155" height="654" alt="Image" src="https://github.com/user-attachments/assets/2f722447-e2af-477a-a9cd-11a6b20a18a0" />
+
+<img width="1159" height="650" alt="Image" src="https://github.com/user-attachments/assets/d8ecaf9d-888e-4a41-8b34-a98e9b00d176" />
+
+<img width="1163" height="648" alt="Image" src="https://github.com/user-attachments/assets/d94f761b-0f21-4ee4-b450-f399fe4f982d" />
 </div>
--->
+
 ---
 ## How to Run This Project
  
  1. Clone the repository:
     
-         git clone https://github.com/yourusername/vendor-performance-analysis.git
+         git clone https://github.com/yourusername/Banking_Portfolio_Risk_Analysis.git
 
 2. Open and Run Notebooks
   
-    ○ `notebooks/Banking-risk-analysis.ipynb`
+       notebooks/Banking-risk-analysis.ipynb`
     
  3. Open Power BI Dashboard:
 
