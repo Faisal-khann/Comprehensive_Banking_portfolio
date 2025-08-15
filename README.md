@@ -9,10 +9,10 @@
 - [Project Workflow](#Project-Workflow)
 - [Dataset](#dataset)
 - [Tools & Technologies](#tools--technologies)
+- [Dashboard Preview](#Dashboard-Preview)
 - [Project Structure](#Project-Structure)
 - [Key Outcomes](#Key-Outcomes)
 - [Business Insights](#Business-Insights)
-- [Dashboard Preview](#Dashboard-Preview)
 - [How to Run This Project](#How-to-Run-This-Project)
 - [Author & Contact](#author--contact)
 ---
