@@ -12,8 +12,6 @@
 - [Detail Analysis Preview](#Detail-Analysis-Preview)
 - [Dashboard Preview](#Dashboard-Preview)
 - [Project Structure](#Project-Structure)
-- [Key Outcomes](#Key-Outcomes)
-- [Business Insights](#Business-Insights)
 - [How to Run This Project](#How-to-Run-This-Project)
 - [Author & Contact](#author--contact)
 ---
@@ -85,11 +83,6 @@ Banking Customer Behavior and Financial Performance Analysis/
 ```
 
 ---
-
-## Key Outcomes
-
-
----
 ## Detail Analysis Preview
 📁 Notebook: [`Banking-risk-analysis.ipynb`](https://github.com/Faisal-khann/Banking_Portfolio_Risk_Analysis/blob/main/notebook/Banking-risk-analysis.ipynb)
 <div>
@@ -111,6 +104,10 @@ Banking Customer Behavior and Financial Performance Analysis/
 </div>
 
 ---
+<!--## Key Outcomes
+
+
+--->
 ## How to Run This Project
  
  1. Clone the repository:
