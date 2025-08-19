@@ -9,6 +9,7 @@
 - [Project Workflow](#Project-Workflow)
 - [Dataset](#dataset)
 - [Tools & Technologies](#tools--technologies)
+- [Detail Analysis Preview](#Detail-Analysis-Preview)
 - [Dashboard Preview](#Dashboard-Preview)
 - [Project Structure](#Project-Structure)
 - [Key Outcomes](#Key-Outcomes)
@@ -22,11 +23,8 @@
 
 ---
 ## Business Problem
-
-## 📌 Business Problem
-
-This project addresses a **Bank Performance & Customer Segmentation** challenge.  
-The objective is to monitor, analyze, and visualize key banking metrics to drive informed decision-making.
+<em>This project addresses a **Bank Performance & Customer Segmentation** challenge.  
+The objective is to monitor, analyze, and visualize key banking metrics to drive informed decision-making.</em>
 
 ### Key Questions
 - **Customer Base Analysis** – How many clients does the bank have? Which customer segments (e.g., income band, nationality) contribute the most value?  
@@ -92,13 +90,18 @@ Banking Customer Behavior and Financial Performance Analysis/
 
 
 ---
-## Dashboard Preview
-📁 Live: [`Banking_Analysis.pbix`](https://app.powerbi.com/view?r=eyJrIjoiMTk3MjE2MjItMTdhZi00NjkwLTg1MzAtZTUxZDNiYjJkMDlkIiwidCI6IjQyYjUxMzUzLTZhMzctNDA5Zi1hMmZlLTc3OGE5YmUzMTllNCJ9)
+## Detail Analysis Preview
+📁 Notebook: [`Banking-risk-analysis.ipynb`](https://github.com/Faisal-khann/Banking_Portfolio_Risk_Analysis/blob/main/notebook/Banking-risk-analysis.ipynb)
 <div>
- 
-  `Below is a preview of the Power BI dashboard showing key vendor KPIs:`<br>
+ <em>I performed end-to-end financial analysis project where I collected, cleaned, and analyzed financial data to extract meaningful insights. The project involved performing exploratory data analysis, calculating key financial metrics, and identifying trends to support strategic decision-making</em>
+</div>
+
+## Dashboard Preview
+📁 Live Dashboard: [`Banking_Analysis.pbix`](https://app.powerbi.com/view?r=eyJrIjoiMTk3MjE2MjItMTdhZi00NjkwLTg1MzAtZTUxZDNiYjJkMDlkIiwidCI6IjQyYjUxMzUzLTZhMzctNDA5Zi1hMmZlLTc3OGE5YmUzMTllNCJ9)
+<div>
+ <em>After completing the end-to-end financial analysis, I built an interactive Power BI dashboard that provides a comprehensive view of the banking sector. The dashboard highlights key insights across loans, deposits, credit cards, and customer engagement. By segmenting data by nationality, income bands, and engagement timeframe, it enables stakeholders to monitor lending performance, deposit patterns, and customer demographics in real-time, ultimately supporting data-driven strategies and improving business outcomes.</em><br>
   
-  <img width="1161" height="645" alt="Image" src="https://github.com/user-attachments/assets/a8d1ebd5-5d4d-4be4-8c27-6e49813767ed" />
+<img width="1170" height="657" alt="Image" src="https://github.com/user-attachments/assets/95b115d2-df03-4e88-a76b-159c813b831e" />
 
 <img width="1155" height="654" alt="Image" src="https://github.com/user-attachments/assets/2f722447-e2af-477a-a9cd-11a6b20a18a0" />
 
