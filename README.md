@@ -90,17 +90,17 @@ Banking Customer Behavior and Financial Performance Analysis/
 </div>
 
 ## Dashboard Preview
-📁 Live Dashboard: [`Banking_Analysis.pbix`](https://app.powerbi.com/view?r=eyJrIjoiMTk3MjE2MjItMTdhZi00NjkwLTg1MzAtZTUxZDNiYjJkMDlkIiwidCI6IjQyYjUxMzUzLTZhMzctNDA5Zi1hMmZlLTc3OGE5YmUzMTllNCJ9)
+📁 Live Dashboard: [`Banking_Portfolio.pbix`](https://app.powerbi.com/view?r=eyJrIjoiYTY1YTcxNmYtMWZmNC00MmQ2LWI0OGQtODYwYjRkYTVkMzAwIiwidCI6IjQyYjUxMzUzLTZhMzctNDA5Zi1hMmZlLTc3OGE5YmUzMTllNCJ9)
 <div>
  <em>After completing the end-to-end financial analysis, I built an interactive Power BI dashboard that provides a comprehensive view of the banking sector. The dashboard highlights key insights across loans, deposits, credit cards, and customer engagement. By segmenting data by nationality, income bands, and engagement timeframe, it enables stakeholders to monitor lending performance, deposit patterns, and customer demographics in real-time, ultimately supporting data-driven strategies and improving business outcomes.</em><br>
   
-<img width="1170" height="657" alt="Image" src="https://github.com/user-attachments/assets/95b115d2-df03-4e88-a76b-159c813b831e" />
+<img width="1203" height="674" alt="Image" src="https://github.com/user-attachments/assets/06335829-5f15-4b30-964c-1bca97a3d41c" />
 
-<img width="1155" height="654" alt="Image" src="https://github.com/user-attachments/assets/2f722447-e2af-477a-a9cd-11a6b20a18a0" />
+<img width="1194" height="675" alt="Image" src="https://github.com/user-attachments/assets/eb2e7199-912d-40b8-bdad-afe76bc45b26" />
 
-<img width="1159" height="650" alt="Image" src="https://github.com/user-attachments/assets/d8ecaf9d-888e-4a41-8b34-a98e9b00d176" />
+<img width="1195" height="671" alt="Image" src="https://github.com/user-attachments/assets/9f59d555-b1bb-40ef-942d-e9c05331154b" />
 
-<img width="1163" height="648" alt="Image" src="https://github.com/user-attachments/assets/d94f761b-0f21-4ee4-b450-f399fe4f982d" />
+<img width="1194" height="672" alt="Image" src="https://github.com/user-attachments/assets/1af39d78-5538-4ce0-8e63-e51488f13274" />
 </div>
 
 ---
