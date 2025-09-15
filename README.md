@@ -71,13 +71,14 @@ Banking Customer Behavior and Financial Performance Analysis/
 ├── Banking dashboard Report.pdf
 │
 ├── notebooks/                  # Jupyter notebooks
-│   ├── Banking-risk-analysis.ipynb
+│   ├── Main_Workbook.ipynb
 │   
 ├── dashboard/                  # Power BI dashboard file
-│   └── Banking_Analysis.pbix
-├── Report-Ppt/                  # Power BI dashboard ppt & report 
+│   └── Banking_Portfolio.pbix
+├── Report-Presentation/                  # Power BI dashboard ppt & report 
 │   └── Banking dashboard ppt
-    └── Banking dashboard report 
+    └── Banking dashboard report
+    └── Banking portfolio pdf
 
 
 ```
