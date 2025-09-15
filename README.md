@@ -83,7 +83,7 @@ Banking Customer Behavior and Financial Performance Analysis/
 
 ---
 ## Detail Analysis Preview
-📁 Notebook: [`Banking-risk-analysis.ipynb`](https://github.com/Faisal-khann/Banking_Portfolio_Risk_Analysis/blob/main/notebook/Banking-risk-analysis.ipynb)
+📁 Notebook: [`Banking-risk-analysis.ipynb`](https://github.com/Faisal-khann/Comprehensive_Banking_portfolio/blob/main/notebook/Main_workbook.ipynb)
 <div>
  <em>I performed end-to-end financial analysis project where I collected, cleaned, and analyzed financial data to extract meaningful insights. The project involved performing exploratory data analysis, calculating key financial metrics, and identifying trends to support strategic decision-making</em>
 </div>
