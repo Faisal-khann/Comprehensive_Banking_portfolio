@@ -90,7 +90,7 @@ Banking Customer Behavior and Financial Performance Analysis/
 </div>
 
 ## Dashboard Preview
-📁 Live Dashboard: [`Banking_Analysis.pbix`](https://app.powerbi.com/view?r=eyJrIjoiMTk3MjE2MjItMTdhZi00NjkwLTg1MzAtZTUxZDNiYjJkMDlkIiwidCI6IjQyYjUxMzUzLTZhMzctNDA5Zi1hMmZlLTc3OGE5YmUzMTllNCJ9)
+📁 Live Dashboard: [`Banking_Portfolio.pbix`](https://app.powerbi.com/view?r=eyJrIjoiYTY1YTcxNmYtMWZmNC00MmQ2LWI0OGQtODYwYjRkYTVkMzAwIiwidCI6IjQyYjUxMzUzLTZhMzctNDA5Zi1hMmZlLTc3OGE5YmUzMTllNCJ9)
 <div>
  <em>After completing the end-to-end financial analysis, I built an interactive Power BI dashboard that provides a comprehensive view of the banking sector. The dashboard highlights key insights across loans, deposits, credit cards, and customer engagement. By segmenting data by nationality, income bands, and engagement timeframe, it enables stakeholders to monitor lending performance, deposit patterns, and customer demographics in real-time, ultimately supporting data-driven strategies and improving business outcomes.</em><br>
   
