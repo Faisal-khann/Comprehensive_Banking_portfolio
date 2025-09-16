@@ -93,13 +93,15 @@ Banking Customer Behavior and Financial Performance Analysis/
 <div>
  <em>After completing the end-to-end financial analysis, I built an interactive Power BI dashboard that provides a comprehensive view of the banking sector. The dashboard highlights key insights across loans, deposits, credit cards, and customer engagement. By segmenting data by nationality, income bands, and engagement timeframe, it enables stakeholders to monitor lending performance, deposit patterns, and customer demographics in real-time, ultimately supporting data-driven strategies and improving business outcomes.</em><br>
   
-<img width="1203" height="674" alt="Image" src="https://github.com/user-attachments/assets/06335829-5f15-4b30-964c-1bca97a3d41c" />
+<img width="1200" height="672" alt="Image" src="https://github.com/user-attachments/assets/581c4d06-a2b3-4ea3-918e-dd6bd9444767" />
 
-<img width="1194" height="675" alt="Image" src="https://github.com/user-attachments/assets/eb2e7199-912d-40b8-bdad-afe76bc45b26" />
+<img width="1196" height="673" alt="Image" src="https://github.com/user-attachments/assets/c61fa676-18c6-46a7-8188-2384d1c4d08d" />
 
-<img width="1195" height="671" alt="Image" src="https://github.com/user-attachments/assets/9f59d555-b1bb-40ef-942d-e9c05331154b" />
+<img width="1197" height="673" alt="Image" src="https://github.com/user-attachments/assets/304cf6c4-f870-4fd9-8d33-1d8eb39977aa" />
 
-<img width="1194" height="672" alt="Image" src="https://github.com/user-attachments/assets/1af39d78-5538-4ce0-8e63-e51488f13274" />
+<img width="1195" height="671" alt="Image" src="https://github.com/user-attachments/assets/07005338-6ca2-4988-88fe-fa30504401e7" />
+
+<img width="1197" height="673" alt="Image" src="https://github.com/user-attachments/assets/1cdac0a8-2233-4763-8e52-8677d4e09524" />
 </div>
 
 ---
