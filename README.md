@@ -101,6 +101,8 @@ Banking Customer Behavior and Financial Performance Analysis/
 
 <img width="1195" height="671" alt="Image" src="https://github.com/user-attachments/assets/07005338-6ca2-4988-88fe-fa30504401e7" />
 
+<img width="1195" height="671" alt="Image" src="https://github.com/user-attachments/assets/3baa369f-9e66-430a-9a04-7a8f4f43c114" />
+
 <img width="1197" height="673" alt="Image" src="https://github.com/user-attachments/assets/1cdac0a8-2233-4763-8e52-8677d4e09524" />
 </div>
 
